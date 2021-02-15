@@ -34,7 +34,7 @@ is patients undergoing painful, expensive surgeries that were not even necessary
 I have taken the dataset of the previous breast cancer patients and train the model to predict whether the cancer is **benign** or **malignant**. These predictions will help doctors to do surgeries only when the cancer is malignant, thus reducing the unnecessary surgeries for woman. 
 
 For building the project I have used Wisconsin Breast cancer data which has 569 rows of which 357 are benign and 212 are malignant. 
-The data is prepossessed and scaled. I have trained with Random forest Classifier gives best accuracy of 95.0%. To provide the easy to use interface to doctors I have developed a website that will take the data and display the output with accuracy and time taken to predict.
+The data is prepossessed and scaled. I have trained with Random forest Classifier gives best accuracy of 95.0% , using Knn with grid search hyperparameter I got 98%. To provide the easy to use interface to doctors I have developed a website that will take the data and display the output with accuracy and time taken to predict.
 
 
 ## Languages or Frameworks Used 
